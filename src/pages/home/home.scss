@@ -1,3 +1,41 @@
 page-home {
 
+  .main {
+  background-color: #2A2A2A;
+  color: white;
+  }
+
+  #title {
+    font-family: 'Futura';
+    font-weight: bold;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+
+  #title h1 {
+    letter-spacing: -3px;
+  }
+
+  #coffeehop {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #subtitle{
+    clear: both;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    color: #C6F3EA;
+  }
+
+  hr {
+    margin-bottom: -20px;
+    width: 90%;
+    color: white;
+  }
+
 }
