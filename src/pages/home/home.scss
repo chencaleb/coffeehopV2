@@ -38,4 +38,68 @@ page-home {
     color: white;
   }
 
+   /* for event links on home page*/
+  // li a:link{
+  //   text-align: left;
+  //   padding: 0;
+  //   margin: 0;
+  //   color: white;
+  //   letter-spacing: -2px;
+  //   font-size: 40px;
+  //   font-style: normal;
+  //   font-weight: 300;
+  //   line-height: 60.399999px;
+  //   text-decoration: none;
+  //   -webkit-font-smoothing: antialiased;
+
+  // }
+
+  /* visited links in nav*/
+  li a:visited{
+    color: white;
+  }
+
+  /* hovering over links in nav*/
+  li a:hover{
+    color: #B7B7B7;
+  }
+
+  .about-text {
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    margin-top: -25px;
+  }
+
+  #word {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  #example {
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    font-style: italic;
+  }
+
+  #about_desc {
+    color: #C6F3EA;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+
 }
